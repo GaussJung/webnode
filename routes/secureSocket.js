@@ -50,7 +50,7 @@ wss.on('connection', (wskt) => {
   
   conncnt++;  // 현재 접속 수량증대 
 
-  wskt.send(' Connected To Rocket SecureWebSocket V1.5 conncnt=' + conncnt);
+  wskt.send(' Connected To Rocket SecureWebSocket V1.6 conncnt=' + conncnt);
 
   // F33-1. binding message 
   wskt.on('message', (indata) => {
